@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		B33B6EBE22AB431600684E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33B6EBD22AB431600684E9E /* AppDelegate.swift */; };
-		B33B6EC022AB431600684E9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33B6EBF22AB431600684E9E /* ViewController.swift */; };
+		B33B6EC022AB431600684E9E /* SwiftVocabularyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33B6EBF22AB431600684E9E /* SwiftVocabularyVC.swift */; };
 		B33B6EC322AB431600684E9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33B6EC122AB431600684E9E /* Main.storyboard */; };
 		B33B6EC522AB431700684E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33B6EC422AB431700684E9E /* Assets.xcassets */; };
 		B33B6EC822AB431700684E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33B6EC622AB431700684E9E /* LaunchScreen.storyboard */; };
+		B33B6ED522AB462A00684E9E /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33B6ED422AB462A00684E9E /* VocabularyWord.swift */; };
+		B33B6ED722AB466C00684E9E /* VocabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33B6ED622AB466C00684E9E /* VocabController.swift */; };
+		B33B6ED922AB46F600684E9E /* DefinitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33B6ED822AB46F600684E9E /* DefinitionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B33B6EBA22AB431600684E9E /* SwiftVocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVocabulary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33B6EBD22AB431600684E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B33B6EBF22AB431600684E9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B33B6EBF22AB431600684E9E /* SwiftVocabularyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVocabularyVC.swift; sourceTree = "<group>"; };
 		B33B6EC222AB431600684E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B33B6EC422AB431700684E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B33B6EC722AB431700684E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B33B6EC922AB431700684E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33B6ED422AB462A00684E9E /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
+		B33B6ED622AB466C00684E9E /* VocabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabController.swift; sourceTree = "<group>"; };
+		B33B6ED822AB46F600684E9E /* DefinitionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +91,8 @@
 		B33B6ED122AB433E00684E9E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				B33B6EBF22AB431600684E9E /* ViewController.swift */,
+				B33B6EBF22AB431600684E9E /* SwiftVocabularyVC.swift */,
+				B33B6ED822AB46F600684E9E /* DefinitionVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 		B33B6ED222AB434800684E9E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B33B6ED422AB462A00684E9E /* VocabularyWord.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -100,6 +108,7 @@
 		B33B6ED322AB435000684E9E /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B33B6ED622AB466C00684E9E /* VocabController.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -175,8 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B33B6EC022AB431600684E9E /* ViewController.swift in Sources */,
+				B33B6ED522AB462A00684E9E /* VocabularyWord.swift in Sources */,
+				B33B6EC022AB431600684E9E /* SwiftVocabularyVC.swift in Sources */,
 				B33B6EBE22AB431600684E9E /* AppDelegate.swift in Sources */,
+				B33B6ED922AB46F600684E9E /* DefinitionVC.swift in Sources */,
+				B33B6ED722AB466C00684E9E /* VocabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
